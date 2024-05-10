@@ -1,0 +1,4 @@
+# These are my reference nginx configs, the default docker nginx:latest config, jc21/nginx-proxy-manager config, my strato server (customised defualt ubuntu config)
+DOCKER/
+JC21/
+STRATO/
