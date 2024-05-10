@@ -1,7 +1,7 @@
 # NGINX-PROXY-MANAGER
 
 My own Implementation of a Nginx Reverse Proxy Manager with SSL offloading, etc. and a Management API.
-Created as a Docker image based on nginx:latest-apline (alpine only for deployment, not for development)
+Created as a Docker image based on nginx:stable-apline (alpine only for deployment, not for development)
 This is a part of my home project server with nginx, mariadb, python-flask web server and Spotify Connect. All containerized with docker.
 This is part of my journey to learn docker, and my first big project I Plan to actually finish.
 
@@ -10,7 +10,7 @@ This Manager will only have a rudimentary fallback UI though. The complete Admin
 
 ### API
 
-The NGINX Managment API Will be available under port 81 of the container.
+The NGINX Management API Will be available under port 81 of the container.
 By default it will not be Exposed to the host or Internet.
 
 Port 80 and 443 will be exposed to the host and forward to the containers based on the Settings and HOST Request Header.
